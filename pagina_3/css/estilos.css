@@ -1,0 +1,183 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background: #504f4f;
+    color:black;
+}
+header , .main , footer
+/*adaptable*/
+{
+    width:100%;
+    max-width:1000px;
+    margin:0px auto;
+}
+/*menu de navegacion*/
+header nav
+{
+    background: #528fd5;
+    /*resolvemos el problema del fondo que  desparece*/
+    /*desaparecer contenido y limpia los floats*/
+    overflow: hidden;
+}
+
+
+
+/*forma de crear un menu*/
+/*sacamos puntos*/
+header nav ul
+{
+    list-style:none;
+}
+/*apilar de izquierda a derecha*/
+/*exceptuando el sub nivel*/
+/*el fondo desparece*/
+header nav  > ul  > li
+{
+    float:left;
+}
+/*modificar enlaces*/
+header nav ul li a
+{
+    padding:10px 20px;
+    display: block;
+    /*sacar el subrayado*/
+    text-decoration:none;
+    color:white;
+}
+header nav ul li a:hover
+{
+    background:#75acec;
+    transition:-5%;
+
+}
+/*oculto el sub menu de ultimo hacia atras*/
+nav li ul
+{
+    display: none;
+} 
+/*muestro los sub menues cuando el puntero pasa por los botones*/
+/*y cuando el puntero se coloca en el boton del sub menu se muestra el ultimo sub menu*/
+nav li:hover >ul
+{
+    display: block;
+}
+
+
+nav > ul  
+{
+    background:float;
+    display:table;
+}
+
+/*selecciono solo los elemento del primer menu*/
+nav > ul > ul >ul
+{
+    float: left;
+}
+nav li ul
+{
+    /*la posicion de los subniveles sera absoluta*/
+    /*asi evito que el background del menu se estire */
+    
+    position: absolute;
+} 
+
+nav li li 
+{
+    background: #528fd5;
+}
+
+/*posiciono el sub sub indice en donde corresponde*/
+nav ul ul ul 
+{
+    left:100%;
+    top:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .articles
+{
+    width:68.5%;
+    margin-right:1.5%;
+    float:left;
+}
+
+.main .articles article
+{
+    padding:20px;
+    background:#fff;
+    margin-bottom:20px;
+}
+
+
+
+/*poner un articulo al lado del otro*/
+aside
+{
+    width:30%;
+    background: orangered;
+    float:left;
+    padding:20px;
+    box-sizing: border-box;
+
+}
+footer
+{
+    background:#000;
+    color: white;
+    clear:both;
+    padding: 10px 0px;
+    text-align: center;
+}
+.form
+{
+    color:black;
+    width:100%;
+    border:1px solid #ccc;
+    margin:20px;
+    padding:20px;
+
+}
+/*creamos la tabla y reorganizamos las casillas*/
+table
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    position :relative;
+    right:20px;
+    
+}
+/*la fila se colocara en gris y el campo seleccionado en naranja*/
+table td
+{
+    border:1px solid black;
+    padding: 20px;
+}
+
+table tr:hover
+{
+    background: darkgray;
+}
+
+table td:hover
+{
+    background: rgb(214, 105, 105);
+}

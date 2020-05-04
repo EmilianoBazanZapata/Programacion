@@ -1,0 +1,91 @@
+*
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+.entorno
+{
+    border: 2px solid black;
+    background-color: rgb(58, 58, 58);
+    width:95%;
+    margin:20px;
+    padding:20px;
+}
+h1
+{
+    width: 50%;
+    position :relative;
+    left: 450px;
+    font-size: 70px;
+}
+.empleado
+{
+    border: 2px solid black;
+    width:58%;
+    margin:20px;
+    padding:20px;
+    position: relative;
+    left:17%;
+    margin-bottom:0px;
+}
+.empleado label 
+{
+    font-size:15px;
+    display:block;
+    width:100%;
+}
+.empleado textarea
+{
+    margin-bottom: 10px;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    border :1px solid rgb(49, 42, 42);
+}
+
+.empleado input
+{
+    margin-bottom: 10px;
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    border :1px solid rgb(49, 42, 42);
+}
+
+.empleado label 
+{
+    font-size:15px;
+    display:block;
+    width:100%;
+}
+
+input[type="submit"]
+{
+    width:100%;
+    margin-bottom: 0;
+    background:#1668c4;
+    color:#fff;
+    padding:20px;
+}
+input[type="submit"]:hover
+{
+    background: #0b70e4b7;
+    cursor:pointer;
+}
+
+
+.rbt
+{
+    position: relative;
+    right:310px;
+    top:-17px;
+}
+
+.cbx
+{
+    position: relative;
+    right:280px;
+    top:-17px;
+}

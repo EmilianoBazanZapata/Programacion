@@ -1,0 +1,113 @@
+/*forma de crear un menu*/
+/*sacamos puntos*/
+header nav ul
+{
+    list-style:none;
+}
+
+/*header nav ul li
+{
+    float:left;
+}*/
+.Dias li
+{
+    float:left;
+    padding:5px;
+    background-color: aquamarine;
+}
+.Horas li
+{
+    float: left;
+}
+
+
+.form
+{
+    color:black;
+    width:100%;
+    border:10px solid rgb(100, 100, 100);
+    margin:20px;
+    padding:20px;
+    font-size:20px;
+
+}
+/*creamos la tabla y reorganizamos las casillas*/
+table
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    position :relative;
+    right:20px;
+    
+}
+/*la fila se colocara en gris y el campo seleccionado en naranja*/
+table td
+{
+    border:1px solid black;
+    padding: 20px;
+}
+
+table tr:hover
+{
+    background: rgb(58, 58, 58);
+}
+
+table td:hover
+{
+    background: rgb(214, 105, 105);
+}
+
+.lunes
+{
+    background: rgb(0, 195, 255);
+}
+.Martes
+{
+    background: rgb(230, 69, 252);
+}
+.Miercoles
+{
+    background: rgb(77, 255, 101);
+}
+.Jueves
+{
+    background: rgb(255, 77, 77);
+}
+.Viernes
+{
+    background: rgb(77, 255, 172);
+}
+
+
+
+
+.Hora
+{
+    background: rgb(255, 17, 17);
+}
+.Nada
+{
+    background: rgb(227, 252, 0);
+}
+.lab:hover
+{
+    background: rgb(0, 195, 255);
+}
+.oper:hover
+{
+    background: rgb(139, 77, 255);
+}
+.Emp:hover
+{
+    background: rgb(77, 255, 101);
+}
+.Org:hover
+{
+    background: rgb(255, 77, 77);
+}
+.Pro:hover
+{
+    background: rgb(77, 255, 172);
+}
+
